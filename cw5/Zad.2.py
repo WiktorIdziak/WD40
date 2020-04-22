@@ -1,0 +1,5 @@
+plik = open("dzielniki4.txt", "r")
+tekst = plik.readlines()
+plik.close()
+print(tekst)
+print("\n")
